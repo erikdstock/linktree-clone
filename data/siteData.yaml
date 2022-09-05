@@ -1,0 +1,22 @@
+# Example site metadata repository. Data could be sourced from anywhere else via an api
+site:
+  name: "Lynxly"
+  description: "a Next.js experiment"
+pages:
+  # Keys are the link page slug
+  labor-day:
+    title: "Labor day Online"
+    description: "Brews, bros, bbqs, and the end of tan suits"
+    pageLinks:
+      - text: Socialist worker article
+        url: "https://socialistworker.org/2016/09/06/labor-day-belongs-to-workers"
+      - text: CNet's Take (?)
+        url: "https://www.cnet.com/culture/why-do-we-celebrate-labor-day-holiday-origins/"
+      - text: Americans for Tax Reform
+        url: "https://www.atr.org/ugly-true-history-labor-a3827/"
+  secret:
+    title: "Da link dump"
+    description: "My top secret links"
+    pageLinks:
+      - text: Youtube
+        url: "https://www.youtube.com/watch?v=p7YXXieghto"
